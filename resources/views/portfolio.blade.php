@@ -111,7 +111,8 @@
       <div class="row justify-content-center">
         <div class="col-lg-6 text-center">
          <div class="animation"style="font-size:35;margin-bottom:20%;margin-top:20%;color:white;">
-             MAKIBA DESIGN AND CONSTRUCTION     
+          <h3 style="font-family:Bradley Hand, cursive">Turn Your Dreams into Reality with</h3>
+            <h2 style="font-family:Stencil Std, fantasy;color:bisque">Makiba Design and Construction </h2>
          </div>
         </div>
       </div>
@@ -137,6 +138,93 @@
 </section>
 <main>
   <div>
+    <section id="constructions" class="constructions">
+      <div class="container aos-init" data-aos="fade-up">
+  
+        <div class="section-header">
+          <h2>Constructions</h2>
+          <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
+        </div>
+  
+        <div class="row gy-4">
+  
+          <div class="col-lg-6 aos-init" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg">
+                     {{-- <img src="/storage/images/{{{$images['12']['image']}}}" style="width:200%;height:100%;background-size:auto" class="img-fluid" alt=""> --}}
+              
+                  </div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Contract Works</h4>
+                    <p>Makiba Design and Construction provides a seamless experience for any building project. Their highly experienced team can provide everything from contract works to cost-effective solutions to bring your vision to life.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+  
+          <div class="col-lg-6 aos-init" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg">
+                    {{-- <img src="/storage/images/{{{$images['13']['image']}}}" style="width:200%;height:100%;background-size:auto" class="img-fluid" alt=""> --}}
+                  </div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Furnitures</h4>
+                    <p>Makiba Design and Construction is the perfect choice for all your design and construction needs. We specialize in furnitures and interior design, helping you create a space tailored to your needs and style.</p>  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+  
+          <div class="col-lg-6 aos-init" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" >
+                    {{-- <img src="/storage/images/{{{$images['14']['image']}}}" style="width:200%;height:100%;background-size:auto" class="img-fluid" alt=""> --}}
+  
+                  </div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Residential Design</h4>
+                    
+                    <p>Makiba Design and Construction offers comprehensive services for both commercial design projects and residential construction jobs. From concept to completion, their talented team provides tailored solutions to meet each client's budget and timeline.</p> </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+  
+          <div class="col-lg-6 aos-init" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg">
+                   {{-- <img src="/storage/images/{{{$images['15']['image']}}}" style="width:200%;height:100%;background-size:auto" class="img-fluid" alt=""> --}}
+                
+                </div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">3D Modeling Rendering</h4>
+                    <p>Makiba Design and Construction is the premier choice for 3D modeling and rendering services. Utilizing the most advanced technology, we create designs that bring your vision to life. Whether it’s for the home, office, or a commercial project, our team’s expertise will deliver the design you desire.</p> </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+  
+        </div>
+  
+      </div>
+    </section>
     <section id="team" class="team">
       <div class="container aos-init aos-animate" data-aos="fade-up">
 

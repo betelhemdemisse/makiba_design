@@ -24,7 +24,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">metal work 1</h4>
-                  <p>this is for example</p>
+                  <p>We specialize in unique metal works for residential, commercial and industrial projects. Our team of highly skilled craftsmen use their extensive knowledge to bring clients' visions to life.</p>
                 </div>
               </div>
             </div>
@@ -43,7 +43,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">metal work 2</h4>
-                  <p>this is for example</p>  </div>
+                  <p>We strive to exceed expectations by combining quality materials with innovative designs. Our attention to detail and passionate approach to every project is what sets us apart.</p>  </div>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@
                 <div class="card-body">
                   <h4 class="card-title">metal work 3</h4>
                   
-                  <p>this is for example</p> </div>
+                  <p>We are proud to offer a wide range of services, from custom metal fabrication and design to installation and construction. With our innovative approach, we can provide clients with an efficient and cost-effective solution to their construction needs.</p> </div>
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">metal work 4</h4>
-                  <p>this is for example</p> </div>
+                  <p> We take pride in providing excellent design, craftsmanship, and customer service on every project, no matter how big or small. With Makiba, you can count on quality workmanship, excellent customer service, and beautiful results.</p> </div>
               </div>
             </div>
           </div>

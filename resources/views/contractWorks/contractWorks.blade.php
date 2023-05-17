@@ -1,6 +1,10 @@
 @extends('main_header.final_header')
 @section('content')
 <section id="features" class="features section-bg">
+  <div class="section-header"style="font-family:Comic Sans MS, Comic Sans, cursive">
+    <h2>Contract Works</h2>
+    Our design and construction services offer a comprehensive range of contract works, from metal works, sanitary works, electrical works, and gypsum works, 
+    to ensure that your construction project is completed to the highest standard.</div>
   <div class="container aos-init" data-aos="fade-up">
 
     <ul class="nav nav-tabs row  g-2 d-flex" role="tablist">

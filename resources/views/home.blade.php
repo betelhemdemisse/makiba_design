@@ -178,7 +178,7 @@
   
           <div class="section-header">
             <h2>Services</h2>
-<p>our company provides interior and exterior architectural and design planning service for new construction and remodels.</p>          </div>
+            <p>Discover Makiba Design and Construction experience! Our team specializes in contract works, furnitures, 3D modeling and commercial design to bring your vision to life. Let us help you create the perfect space for your dream project.</p>
   
           <div class="row gy-4">
   
