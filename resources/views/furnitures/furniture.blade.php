@@ -2,7 +2,8 @@
 @section('content') 
 <section id="alt-services-2" class="alt-services section-bg">
   <div class="container aos-init aos-animate" data-aos="fade-up">
-<h2>Furnitures</h2>
+                          <h2 style="text-align:center">Furnitures</h2>
+<div class="section-header"style="font-family:Comic Sans MS, Comic Sans, cursive">Makiba Design and Construction is the premier destination for beautiful and functional custom-made furnitures. Every piece is designed and built with the highest-quality materials to ensure that all furnishings meet the highest of industry standards.</div>
     <div class="row justify-content-around gy-4">
       <div class="col-lg-5 d-flex flex-column justify-content-center">
        

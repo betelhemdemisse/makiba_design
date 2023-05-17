@@ -4,8 +4,8 @@
     <div class="container aos-init" data-aos="fade-up">
 
       <div class="section-header">
-        <h2>Constructions</h2>
-        <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
+        <h2>Furnitures</h2>
+        <p>Makiba Design and Construction: High-Quality Services for Any Project</p>
       </div>
 
       <div class="row gy-4">
@@ -24,7 +24,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">bed work 1</h4>
-                  <p>this is for example</p>
+                  <p>Our design and construction services offer the perfect bed for any bedroom. Our team of experienced designers will work with you to create a custom bed that fits your style, needs, and budget. We provide high-quality craftsmanship to ensure your bed is built to last.</p>
                 </div>
               </div>
             </div>
@@ -43,7 +43,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">bed work 2</h4>
-                  <p>this is for example</p>  </div>
+                  <p> Our expert craftsmen create beds that are tailored to your exact specifications, from traditional designs to modern, contemporary looks. We take pride in providing quality construction, ensuring that your bed will last for years to come.</p>  </div>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@
                 <div class="card-body">
                   <h4 class="card-title">bed work 3</h4>
                   
-                  <p>this is for example</p> </div>
+                  <p>We offer custom designed and constructed beds that are tailored to your individual needs. Our beds are made with quality materials, designed for maximum comfort and durability, and are crafted to be aesthetically pleasing.</p> </div>
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">bed work 4</h4>
-                  <p>this is for example</p> </div>
+                  <p> With our custom beds, you can rest assured that you will have a perfect place to rest each and every night.</p> </div>
               </div>
             </div>
           </div>
