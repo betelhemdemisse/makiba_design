@@ -24,7 +24,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">sanitary work 1</h4>
-                  <p>this is for example</p>
+                  <p>At Makiba design and construction, we provide a full range of design and construction services, including sanitary works. We have a team of experienced professionals who are dedicated to providing a high quality of work and customer service. Our projects range from small scale renovations and repairs to larger scale new constructions.</p>
                 </div>
               </div>
             </div>
@@ -43,7 +43,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">sanitary work 2</h4>
-                  <p>this is for example</p>  </div>
+                  <p>We provide comprehensive sanitary work services, from design and installation to maintenance and repairs. Our experienced team of professionals is dedicated to providing the highest quality services to ensure your satisfaction. We use only the best materials and tools to ensure your sanitary system works efficiently and reliably.</p></div>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@
                 <div class="card-body">
                   <h4 class="card-title">sanitary work 3</h4>
                   
-                  <p>this is for example</p> </div>
+                  <p>We offer a comprehensive sanitary work service that includes everything from design and installation of new fixtures, to repairs and maintenance of existing systems. Our experienced technicians are equipped with the necessary tools and knowledge to ensure your plumbing systems remain in good working order.</p> </div>
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">sanitary work 4</h4>
-                  <p>this is for example</p> </div>
+                  <p>Makiba Design and Construction offers a wide range of services to meet all of your design and construction needs - from changes to existing structures, to complete new builds. We specialize in sanitary work and are well-equipped to provide professional installation of sinks, toilets, tubs, and more.</p> </div>
               </div>
             </div>
           </div>

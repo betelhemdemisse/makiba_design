@@ -22,7 +22,8 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">electrical work 1</h4>
-                  <p>this is for example</p>
+                  <p>Makiba design and construction is a full-service design and construction firm specializing in electrical works. We have been providing quality service for over 10 years, and we take pride in being a reliable and professional choice for all of our clients.
+                  </p>
                 </div>
               </div>
             </div>
@@ -41,7 +42,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">electrical work 2</h4>
-                  <p>this is for example</p>  </div>
+                  <p>Whether you’re looking for a simple repair or a full-scale renovation, our team of experts can handle the job. We use only the highest quality materials and the latest tools to ensure your project is completed safely and to your exact specifications. Contact us today to learn more about how we can help you with your design and construction needs.</p>  </div>
               </div>
             </div>
           </div>
@@ -60,7 +61,7 @@
                 <div class="card-body">
                   <h4 class="card-title">electrical work 3</h4>
                   
-                  <p>this is for example</p> </div>
+                  <p> At Makiba Design and Construction, we provide a comprehensive design and construction service that covers electrical works,and more. Our team of professionals will work with you to create a tailored plan that fits to your needs.</p> </div>
               </div>
             </div>
           </div>
@@ -78,7 +79,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">electrical work 4</h4>
-                  <p>this is for example</p> </div>
+                  <p> Makiba Design and Construction offers a comprehensive and reliable service for all your electrical and lighting design needs. They specialize in electrical works, lighting design and installation, making them the perfect choice for construction, renovation, or any other related project.</p> </div>
               </div>
             </div>
           </div>
