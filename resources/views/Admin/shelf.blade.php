@@ -1,4 +1,4 @@
-@extends('main_header.admin_final_header')
+@extends('main_header.final_header')
 @section('content') 
 <section id="constructions" class="constructions">
     <div class="container aos-init" data-aos="fade-up">
@@ -23,6 +23,8 @@
                 <div class="card-body">
                   <h4 class="card-title">shelf work 1</h4>
                    <p>this is for example</p>
+                   @can("isAdmin")
+
                                   <form action="{{route('admin.change_furnitures_image')}}"method="POST"enctype="multipart/form-data">
                                     @csrf
                                   <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
@@ -30,6 +32,7 @@
                                    name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                                  <button type="submit" class="btn btn-primary"> change</button>
                                   </form>
+                 @endcan
                 </div>
               </div>
             </div>

@@ -1,4 +1,4 @@
-@extends('main_header.admin_final_header')   
+@extends('main_header.final_header')   
 @section('content')
   <main id="main">
       <section id="projects" class="projects">
@@ -32,13 +32,14 @@
                   </div>
 
                 </div>
-                <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
+
+               @auth('admin') <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
                   @csrf
                 <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                 <input id="image_id" value="{{{$images['0']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                <button type="submit" class="btn btn-primary">change</button>
-                </form>
+               </form> @endauth
               </div><!-- End Projects Item -->
               <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling" style="position: absolute; left: 0px; top: 0px;">
                 <div class="portfolio-content h-100">
@@ -50,13 +51,13 @@
                     <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
-                <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
+               @auth('admin') <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
                   @csrf
                 <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                 <input id="image_id" value="{{{$images['1']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                  name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                <button type="submit" class="btn btn-primary"> change</button>
-                </form>
+               </form> @endauth
               </div><!-- End Projects Item -->
   
               <div class="col-lg-4 col-md-6 portfolio-item filter-construction" style="position: absolute; left: 0px; top: 411px;">
@@ -69,13 +70,13 @@
                     <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
-                <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
+               @auth('admin') <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
                   @csrf
                 <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                 <input id="image_id" value="{{{$images['2']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                <button type="submit" class="btn btn-primary"> change</button>
-                </form>
+               </form> @endauth
               </div><!-- End Projects Item -->
   
               <div class="col-lg-4 col-md-6 portfolio-item filter-repairs" style="position: absolute; left: 0px; top: 822px;">
@@ -88,13 +89,13 @@
                     <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
-                <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
+               @auth('admin') <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
                   @csrf
                 <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                 <input id="image_id" value="{{{$images['3']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                <button type="submit" class="btn btn-primary"> change</button>
-                </form>
+               </form> @endauth
               </div><!-- End Projects Item -->
   
               <div class="col-lg-4 col-md-6 portfolio-item filter-design" style="position: absolute; left: 0px; top: 1233px;">
@@ -107,13 +108,13 @@
                     <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
-                <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
+               @auth('admin') <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
                   @csrf
                 <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                 <input id="image_id" value="{{{$images['4']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                 name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                <button type="submit" class="btn btn-primary"> change</button>
-                </form>
+               </form> @endauth
               </div><!-- End Projects Item -->
   
              
@@ -127,13 +128,13 @@
                     <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
-                <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
+               @auth('admin') <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
                   @csrf
                 <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                 <input id="image_id" value="{{{$images['5']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                 name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                <button type="submit" class="btn btn-primary"> change</button>
-                </form>
+               </form> @endauth
               </div><!-- End Projects Item -->
   
               <div class="col-lg-4 col-md-6 portfolio-item filter-repairs" style="position: absolute; left: 0px; top: 2466px;">
@@ -146,13 +147,13 @@
                     <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
-                <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
+               @auth('admin') <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
                   @csrf
                 <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                 <input id="image_id" value="{{{$images['6']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                  name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                <button type="submit" class="btn btn-primary"> change</button>
-                </form>
+               </form> @endauth
               </div><!-- End Projects Item -->
   
               <div class="col-lg-4 col-md-6 portfolio-item filter-design" style="position: absolute; left: 0px; top: 2877px;">
@@ -165,13 +166,13 @@
                     <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
-                <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
+               @auth('admin') <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
                   @csrf
                 <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                 <input id="image_id" value="{{{$images['7']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                  name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                <button type="submit" class="btn btn-primary"> change</button>
-                </form>
+               </form> @endauth
               </div><!-- End Projects Item -->
   
               <div class="col-lg-4 col-md-6 portfolio-item filter-design" style="position: absolute; left: 0px; top: 2877px;">
@@ -184,13 +185,13 @@
                     <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
-                <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
+               @auth('admin') <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
                 @csrf
                 <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                 <input id="image_id" value="{{{$images['8']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                  name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                <button type="submit" class="btn btn-primary"> change</button>
-                </form>
+               </form> @endauth
               </div><!-- End Projects Item -->
   
               <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling" style="position: absolute; left: 0px; top: 3288px;">
@@ -203,13 +204,13 @@
                     <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
-                <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
+               @auth('admin') <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
                   @csrf
                 <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                 <input id="image_id" value="{{{$images['9']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
         name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                <button type="submit" class="btn btn-primary"> change</button>
-                </form>
+               </form> @endauth
               </div><!-- End Projects Item -->
   
               <div class="col-lg-4 col-md-6 portfolio-item filter-construction" style="position: absolute; left: 0px; top: 3699px;">
@@ -222,13 +223,13 @@
                     <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
-                <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
+               @auth('admin') <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
                   @csrf
                 <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                 <input id="image_id" value="{{{$images['10']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
         name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                <button type="submit" class="btn btn-primary"> change</button>
-                </form>
+               </form> @endauth
               </div><!-- End Projects Item -->
   
               <div class="col-lg-4 col-md-6 portfolio-item filter-repairs" style="position: absolute; left: 0px; top: 4110px;">
@@ -241,13 +242,13 @@
                     <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
-                <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
+               @auth('admin') <form action="{{route('admin.change_image')}}"method="POST"enctype="multipart/form-data">
                   @csrf
                 <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                 <input id="image_id" value="{{{$images['11']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
         name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                <button type="submit" class="btn btn-primary"> change</button>
-                </form>
+               </form> @endauth
               </div><!-- End Projects Item -->
   
              
@@ -271,7 +272,7 @@
                 </div>
                 <h3>contract works</h3>
                 {{-- <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p> --}}
-                <a href="{{route('user.contract')}}" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+                <a href="{{route('admin.work')}}" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
               </div>
             </div><!-- End Service Item -->
   
@@ -283,7 +284,7 @@
                 </div>
                 <h3>furnitures</h3>
                 {{-- <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p> --}}
-                <a href="{{route('user.contract')}}" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+                <a href="{{route('admin.work')}}" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
               </div>
             </div><!-- End Service Item -->
   
@@ -294,7 +295,7 @@
                 </div>
                 <h3>design and construction</h3>
                 {{-- <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p> --}}
-                <a href="{{route('user.contract')}}" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+                <a href="{{route('admin.work')}}" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
               </div>
             </div><!-- End Service Item -->
   

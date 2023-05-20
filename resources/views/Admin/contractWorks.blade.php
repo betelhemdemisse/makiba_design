@@ -1,6 +1,10 @@
-@extends('main_header.admin_final_header')
+@extends('main_header.final_header')
 @section('content')
 <section id="features" class="features section-bg">
+  <div class="section-header"style="font-family:Comic Sans MS, Comic Sans, cursive">
+    <h2>Contract Works</h2>
+    Our design and construction services offer a comprehensive range of contract works, from metal works, sanitary works, electrical works, and gypsum works, 
+    to ensure that your construction project is completed to the highest standard.</div>
   <div class="container aos-init" data-aos="fade-up">
 
     <ul class="nav nav-tabs row  g-2 d-flex" role="tablist">
@@ -49,13 +53,14 @@
        <div class="card-body">
                                     <h4 class="card-title"></h4>
                                   <p>this is for example</p>
-                                  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
+                                  @auth('admin')
+                            <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
                                     @csrf
                                   <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                                   <input id="image_id" value="{{{$images['0']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                                    name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                                  <button type="submit" class="btn btn-primary"> change</button>
-                                  </form>  
+                                  </form> @endauth 
                                    </div>
                                    </div>
                                    </div>
@@ -73,7 +78,7 @@
        <div class="card-body">
                                     <h4 class="card-title"></h4>
                                   <p>this is for example</p>
-                                  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
+ @auth('admin')                                  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
                                     @csrf
                                   <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                                   <input id="image_id" value="{{{$images['1']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
@@ -108,13 +113,13 @@
        <div class="card-body">
                                     <h4 class="card-title"></h4>
                                   <p>this is for example</p>
-                                  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
+ @auth('admin')                                  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
                                     @csrf
                                   <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                                   <input id="image_id" value="{{{$images['2']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                                    name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                                  <button type="submit" class="btn btn-primary"> change</button>
-                                  </form>
+                                  </form>@endauth
                                    </div>
                                    </div>
                                    </div>
@@ -133,13 +138,13 @@
        <div class="card-body">
                                     <h4 class="card-title"></h4>
                                   <p>this is for example</p>
-                                  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
+ @auth('admin')                                  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
                                     @csrf
                                   <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                                   <input id="image_id" value="{{{$images['3']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                                    name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                                  <button type="submit" class="btn btn-primary"> change</button>
-                                  </form>
+                                  </form>@endauth
                                    </div>
                                    </div>
                                    </div>
@@ -174,7 +179,7 @@
                 <input id="image_id" value="{{{$images['4']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                  name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                <button type="submit" class="btn btn-primary"> change</button>
-                </form>
+                </form>@endauth
             
                                                  </div>
                                    </div>
@@ -193,13 +198,13 @@
        <div class="card-body">
                                     <h4 class="card-title"></h4>
                                   <p>this is for example</p>
-                                  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
+ @auth('admin')                                  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
                                     @csrf
                                   <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                                   <input id="image_id" value="{{{$images['5']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                                    name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                                  <button type="submit" class="btn btn-primary"> change</button>
-                                  </form>  
+                                  </form>@endauth  
                                    </div>
                                    </div>
                                    </div>
@@ -228,13 +233,13 @@
        <div class="card-body">
                                     <h4 class="card-title"></h4>
                                     <p>this is for example</p>
-                                    <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
+   @auth('admin')                                  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
                                       @csrf
                                     <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                                     <input id="image_id" value="{{{$images['6']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                                      name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                                    <button type="submit" class="btn btn-primary"> change</button>
-                                    </form>
+                                    </form>@endauth
                                    </div>
                                    </div>
                                    </div>
@@ -255,13 +260,13 @@
        <div class="card-body">
                                     <h4 class="card-title"></h4>
                                     <p>this is for example</p>
-                                    <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
+   @auth('admin')                                  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
                                       @csrf
                                     <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                                     <input id="image_id" value="{{{$images['7']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                                      name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                                    <button type="submit" class="btn btn-primary"> change</button>
-                                    </form>
+                                    </form>@endauth
                                     </div>
                                    </div>
                                    </div>

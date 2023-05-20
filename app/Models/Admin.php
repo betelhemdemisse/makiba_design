@@ -34,16 +34,8 @@ class Admin extends Authenticatable
      * The attributes that should be cast to native types.
      *
      * @var */
-//     public function roles()
-// {
-//     return $this->belongsToMany(role::class);
-// }
-// public function isAdmin() {
-//   if($this->role->role == 'admin'){
-//        return true;
-//    }
-// public function isAdmin() {
-//     return $this->roles()->where('role', 'user')->exists();
-//  }
-
+    public function hasRole($admin) 
+    {
+       return $this->role == $admin; // sample implementation only
+    }
 }

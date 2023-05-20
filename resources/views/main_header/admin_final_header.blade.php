@@ -79,8 +79,13 @@
                   </ul>
                 </li>
                 <li><a href="{{route('admin.contact')}}">Contact</a></li>
-        
-                <li><a href="{{route('admin.logout')}}">logout</a></li>
+             
+                @auth('admin')
+            <li><a href="{{route('admin.logout')}}">logout</a></li>
+                @endauth
+           @cannot('admin')
+            <li><a href="{{route('admin.login')}}">login as admin</a></li>
+           @endcannot
               </ul>
             </nav>
       
@@ -102,8 +107,8 @@
                      furniture<br/>
                     contract works<br/>
                       <span id="spare-time">Quality.Every time</span><br/>
-                      </div>
-                      </h1>
+                    </h1></div>
+                   
                       
                     </div>
               </div>

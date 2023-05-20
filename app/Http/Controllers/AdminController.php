@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Auth;
 use Closure;
@@ -15,15 +14,60 @@ use App\Models\portfolio_images;
 use App\Models\contract_works_images;
 use App\Models\design_and_construction_works_images;
 use App\Models\furniture_works_images;
+
 class AdminController extends Controller
 {
    public function index()
    {
     return view("Admin.login");
    }
-   public function login(Request $request)
+      
+   public function home(){
+   if(Auth::guard('admin')->check()){
+   
+     return redirect()->route("admin.portfolio");
+           }
+      else{
+          return redirect()->route("admin.portfolio");
+     }
+}
+public function setting()
+{
+  if(Auth::guard('admin')->check()){
+    return view("Admin.change_new_password");
+  }
+}
+public function change(Request $request)
+{
+ //dd($request);
+    $request->validate([
+        'password'=>'required|min:4|max:30',
+       'newpassword'=>'required|min:4|max:30',
+        'confirmpassword'=>'same:newpassword',
+   ],[
+       'password.required'=>"Please insert Password",
+      'newpassword.required'=>"Please insert Password",
+       'confirmpassword.required'=>"Please insert Password",
+   ]);
+$auth=auth()->user()->password;
+dd($auth);
+   if(!Hash::check($request->password, auth()->user()->password)){
+    return redirect()->route("admin.setting"); 
+}
+Admin::whereId(auth()->user()->id)->update([
+  'password' => Hash::make($request->newpassword)
+]);
+    }
+ 
+ 
+public function logout()
+{
+   Auth::guard('admin')->logout();
+    return redirect()->route("admin.home");
+}
+public function login(Request $request)
    {
-       //dd($request);
+     //  dd($request);
        $request->validate([
            'email'=>'required|min:7|max:30|exists:admins,email',
            'password'=>'required|min:4|max:30',
@@ -35,8 +79,8 @@ class AdminController extends Controller
        $creds=$request->only("email","password");
        //dd($creds);
         if(Auth::guard("admin")->attempt($creds)){
-     //  dd($creds);
-        return redirect()->route("admin.work");
+      //dd($creds);
+        return redirect()->route("admin.portfolio");
         }
        return redirect()->route("admin.index")->with("fail","Admin or password error"); 
    }
@@ -142,11 +186,12 @@ class AdminController extends Controller
     $images= furniture_works_images::get()->toArray();
     return view("Admin.furniture",compact('images')) ;
    }
-   public function home()
-    {
-     $images= home_images::get()->toArray(); 
-     return view("Admin.home",compact('images')) ;
-    }
+  //  public function home()
+  //   {
+  //    $images= home_images::get()->toArray(); 
+  // // dd($images);
+  //    return view("Admin.home",compact('images')) ;
+  //   }
     public function contact()
     {
         return view("Admin.contact");
@@ -158,12 +203,7 @@ class AdminController extends Controller
         return view("Admin.portfolio",compact('images')) ;
 
     }
-     public function logout()
-    {
-        //echo('you are here');
-        Auth::guard('admin')->logout();
-        return redirect()->route("admin.login");
-    }
+  
     public function change_home_image(Request $request)
     {
         //dd($request);

@@ -24,7 +24,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">office_table work 1</h4>
-                  <p>this is for example</p>
+                  <p>Makiba Design and Construction specializes in custom design and construction services for both residential and commercial projects. From office tables to full-service remodeling, Makiba offers a wide range of high-quality materials and craftsmanship.</p>
                 </div>
               </div>
             </div>
@@ -43,7 +43,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">office_table work 2</h4>
-                  <p>this is for example</p>  </div>
+                  <p>From office tables to full-service remodeling, Makiba offers a wide range of high-quality materials and craftsmanship.</p>  </div>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@
                 <div class="card-body">
                   <h4 class="card-title">office_table work 3</h4>
                   
-                  <p>this is for example</p> </div>
+                  <p>We specialize in creating pieces that combine both functionality and aesthetic appeal for our clients' perfect space.</p> </div>
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">office_table work 4</h4>
-                  <p>this is for example</p> </div>
+                  <p> Our team of professional architects and interior designers will help you create the perfect office table that perfectly suits your space.</p> </div>
               </div>
             </div>
           </div>

@@ -24,7 +24,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">dining_table work 1</h4>
-                  <p>this is for example</p>
+                  <p> At Makiba Design and Construction, we specialize in handcrafted dining tables and chairs. We take pride in our high-quality construction and design, providing beautiful and durable furniture for any dining area.</p>
                 </div>
               </div>
             </div>
@@ -43,7 +43,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">dining_table work 2</h4>
-                  <p>this is for example</p>  </div>
+                  <p>Whether you're building a dream dining room or adding sophistication to an existing dining area, Makiba Design and Construction will ensure you get a spectacular and personalized product of the highest quality.</p>  </div>
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">dining_table work 4</h4>
-                  <p>this is for example</p> </div>
+                  <p>Our experienced team of designers and builders are passionate about creating one-of-a-kind solutions that reflect your personal style and meet your needs. Let us bring your dream dining table to life</p> </div>
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-@extends('main_header.admin_final_header')
+@extends('main_header.final_header')
 @section('content')
 <section id="features" class="features section-bg">
   <div class="container aos-init" data-aos="fade-up">

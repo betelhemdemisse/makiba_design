@@ -22,7 +22,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">shelf work 1</h4>
-                  <p>this is for example</p>
+                  <p>Makiba Design and Construction is the perfect choice for all your design and construction needs. From kitchen cabinets to closet shelving, our experienced team can provide high quality services to help create the perfect space for your home.</p>
                 </div>
               </div>
             </div>

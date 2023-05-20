@@ -24,7 +24,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">coffee_table work 1</h4>
-                  <p>this is for example</p>
+                  <p>Makiba Design and Construction specializes in custom-built coffee tables, designed to suit any style of home.</p>
                 </div>
               </div>
             </div>
@@ -43,7 +43,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">coffee_table work 2</h4>
-                  <p>this is for example</p>  </div>
+                  <p> Whether you're looking for a modern look, something rustic, or something sleek and contemporary, Makiba Design and Construction will work to create a stunning piece that you'll cherish for years to come.</p>  </div>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@
                 <div class="card-body">
                   <h4 class="card-title">coffee_table work 3</h4>
                   
-                  <p>this is for example</p> </div>
+                  <p>Makiba Design and Construction offers quality design and construction services, with a specialty in handcrafted coffee tables. From traditional to modern, we craft beautiful and unique pieces that are tailor-made to meet the requirements of any customer.</p> </div>
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">coffee_table work 4</h4>
-                  <p>this is for example</p> </div>
+                  <p>we provide a range of stylish and modern coffee tables to fit any living space. Our coffee tables are made from high-quality materials and feature unique, eye-catching designs that are sure to enhance the look of any room.</p> </div>
               </div>
             </div>
           </div>

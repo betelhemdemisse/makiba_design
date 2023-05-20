@@ -1,11 +1,10 @@
-@extends('main_header.admin_final_header')
+@extends('main_header.final_header')
 @section('content') 
 <section id="constructions" class="constructions">
     <div class="container aos-init" data-aos="fade-up">
-
       <div class="section-header">
         <h2>Constructions</h2>
-        <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
+     <p>Bringing your vision to life through trusted design and construction excellence</p>   
       </div>
 
       <div class="row gy-4">
@@ -22,14 +21,16 @@
               <div class="col-sm-4 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">electrical work 1</h4>
-                   <p>this is for example</p>
-                                  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
+                  <p>Makiba design and construction is a full-service design and construction firm specializing in electrical works. We have been providing quality service for over 10 years, and we take pride in being a reliable and professional choice for all of our clients.
+                    @auth('admin')              
+                    <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
                                     @csrf
                                   <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                                   <input id="image_id" value="{{{$images['8']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                                    name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                                  <button type="submit" class="btn btn-primary"> change</button>
                                   </form>
+                                  @endauth
                 </div>
               </div>
             </div>
@@ -48,14 +49,14 @@
               <div class="col-sm-4 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">electrical work 2</h4>
-                   <p>this is for example</p>
-                                  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
+                  <p>Whether you’re looking for a simple repair or a full-scale renovation, our team of experts can handle the job. We use only the highest quality materials and the latest tools to ensure your project is completed safely and to your exact specifications. Contact us today to learn more about how we can help you with your design and construction needs.</p>  </div>
+                  @auth('admin')  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
                                     @csrf
                                   <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                                   <input id="image_id" value="{{{$images['9']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                                    name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                                  <button type="submit" class="btn btn-primary"> change</button>
-                                  </form>  </div>
+                                  </form> @endauth </div>
               </div>
             </div>
           </div>
@@ -74,14 +75,14 @@
                 <div class="card-body">
                   <h4 class="card-title">electrical work 3</h4>
                   
-                   <p>this is for example</p>
-                                  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
+                  <p> At Makiba Design and Construction, we provide a comprehensive design and construction service that covers electrical works,and more. Our team of professionals will work with you to create a tailored plan that fits to your needs.</p> </div>
+                  @auth('admin')  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
                                     @csrf
                                   <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                                   <input id="image_id" value="{{{$images['10']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                                    name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                                  <button type="submit" class="btn btn-primary"> change</button>
-                                  </form> </div>
+                                  </form> @endauth</div>
               </div>
             </div>
           </div>
@@ -99,14 +100,14 @@
               <div class="col-sm-4 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">electrical work 4</h4>
-                   <p>this is for example</p>
-                                  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
+                  <p> Makiba Design and Construction offers a comprehensive and reliable service for all your electrical and lighting design needs. They specialize in electrical works, lighting design and installation, making them the perfect choice for construction, renovation, or any other related project.</p> </div>
+                  @auth('admin')   <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">
                                     @csrf
                                   <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
                                   <input id="image_id" value="{{{$images['11']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
                                    name="image_id" value="{{ old('image_id') }}"hidden autofocus>
                                  <button type="submit" class="btn btn-primary"> change</button>
-                                  </form> </div>
+                                  </form>@endauth </div>
               </div>
             </div>
           </div>

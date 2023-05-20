@@ -1,4 +1,4 @@
-@extends('main_header.admin_final_header')
+@extends('main_header.final_header')
 @section('content') 
 <section id="alt-services-2" class="alt-services section-bg">
   <div class="container aos-init aos-animate" data-aos="fade-up">

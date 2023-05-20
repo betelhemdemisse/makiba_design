@@ -24,7 +24,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">kitchen_cabinet work 1</h4>
-                  <p>this is for example</p>
+                  <p>Makiba Design and Construction is the premier choice for all your kichen cabinet needs. With years of experience and dedication to quality workmanship, they offer custom crafted designs that are both beautiful and durable.</p>
                 </div>
               </div>
             </div>
@@ -43,7 +43,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">kitchen_cabinet work 2</h4>
-                  <p>this is for example</p>  </div>
+                  <p>we provides high quality kitchen cabinet design and installation services. Our experienced team of professionals can create stylish cabinets for any home, with high quality materials and workmanship.</p>  </div>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@
                 <div class="card-body">
                   <h4 class="card-title">kitchen_cabinet work 3</h4>
                   
-                  <p>this is for example</p> </div>
+                  <p>Our experienced team of professionals combine creative vision with top-tier materials to create beautiful and functional cabinets that perfectly fit into the existing space and elevate the design of any kitchen.</p> </div>
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">kitchen_cabinet work 4</h4>
-                  <p>this is for example</p> </div>
+                  <p>Our attention to detail and passion for creating unique designs sets us apart from other cabinet makers. We combine traditional carpentry techniques with the latest technology to deliver a modern and stylish look for your kitchen. Whether you’re looking for a classic or contemporary style, our team will work with you to create the perfect cabinets for your home.</p> </div>
               </div>
             </div>
           </div>
