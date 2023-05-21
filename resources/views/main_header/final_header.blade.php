@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&amp;family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
 
+
+
   
   <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -79,7 +81,7 @@
               </li>
             <li class="dropdown"><a href="{{route('admin.Furnitures')}}"><span>furnitures</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
-                  <li><a href="{{route('admin.work')}}">Order Custom Makiba Furnitures</a></li>
+                  <li><a href="{{route('admin.Order_Custom_Makiba_Furnitures')}}">Order Custom Makiba Furnitures</a></li>
                   <li><a href="{{route('admin.Sofa')}}">Sofa</a></li>
                   <li><a href="{{route('admin.Bed')}}">Bed</a></li>
                   <li><a href="{{route('admin.Wardrop')}}">Wardrop</a></li>
@@ -105,11 +107,7 @@
             @endguest
             @auth('admin')
             <li><a href="{{route('admin.logout')}}">logout</a></li>
-            <li class="dropdown"><span><a href="#">setting</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-              <ul>
-                <li><a href="{{route('admin.setting')}}">change password</a></li>
-              </ul>
-            </li>
+            
             @endauth
 
           </ul>
@@ -125,7 +123,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-6 text-center">
           <div>
-            <h1 style="font-size:35;margin-bottom:4%;margin-top:20%;">makiba design and construction<div class="roller">
+            <h1 style="font-size:35;margin-bottom:4%;margin-top:20%;color:white">makiba design and construction<div class="roller">
               <span id="rolltext">design  construction<br/>
              furniture<br/>
             contract works<br/>
@@ -212,7 +210,7 @@
 <div class="footer-legal text-center position-relative">
 <div class="container">
   <div class="copyright">
-    © Copyright <strong><span>makiba design and construction</span></strong>
+ <strong><span>makiba design and construction</span></strong>
   </div>
   <div class="credits">
   </div>

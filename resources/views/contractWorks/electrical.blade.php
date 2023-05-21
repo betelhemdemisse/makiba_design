@@ -4,7 +4,7 @@
     <div class="container aos-init" data-aos="fade-up">
 
       <div class="section-header">
-        <h2>Constructions</h2>
+        <h2>Electrical Works</h2>
         <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
       </div>
 

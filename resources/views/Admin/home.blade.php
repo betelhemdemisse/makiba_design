@@ -22,7 +22,7 @@
   
               <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling" style="position: absolute; left: 0px; top: 0px;">
                 <div class="portfolio-content h-100">
-                  <img src="/storage/images/{{{$images['0']['image']}}}" class="img-fluid" alt="">
+           <img src="{{asset('/storage/images/hero-carousel-5.jpg') }}"style="width:200%;height:100%;background-size:auto" class="img-fluid" alt="">
                                                           
                   <div class="portfolio-info">
                     <h4>Remodeling 1</h4>
@@ -43,8 +43,9 @@
               </div><!-- End Projects Item -->
               <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling" style="position: absolute; left: 0px; top: 0px;">
                 <div class="portfolio-content h-100">
-                  <img src="/storage/images/{{{$images['1']['image']}}}" class="img-fluid" alt="">
-                  <div class="portfolio-info">
+                 
+           <img src="{{asset('storage/images/'.$images['1']['image']) }}"style="width:200%;height:100%;background-size:auto" class="img-fluid" alt="">
+           <div class="portfolio-info">
                     <h4>Remodeling 1</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur</p>
                     <a href="/assets/img/sanitary1.jpg" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
@@ -62,7 +63,8 @@
   
               <div class="col-lg-4 col-md-6 portfolio-item filter-construction" style="position: absolute; left: 0px; top: 411px;">
                 <div class="portfolio-content h-100">
-                  <img src="/storage/images/{{{$images['2']['image']}}}"class="img-fluid" alt="">
+           <img src="{{asset('storage/images/'.$images['2']['image']) }}"style="width:200%;height:100%;background-size:auto" class="img-fluid" alt="">
+                  
                   <div class="portfolio-info">
                     <h4>Construction 1</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -81,7 +83,8 @@
   
               <div class="col-lg-4 col-md-6 portfolio-item filter-repairs" style="position: absolute; left: 0px; top: 822px;">
                 <div class="portfolio-content h-100">
-                  <img src="/storage/images/{{{$images['3']['image']}}}" class="img-fluid" alt="">
+           <img src="{{asset('storage/images/'.$images['3']['image']) }}"style="width:200%;height:100%;background-size:auto" class="img-fluid" alt="">
+                 
                   <div class="portfolio-info">
                     <h4>Repairs 1</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -100,7 +103,8 @@
   
               <div class="col-lg-4 col-md-6 portfolio-item filter-design" style="position: absolute; left: 0px; top: 1233px;">
                 <div class="portfolio-content h-100">
-                  <img src="/storage/images/{{{$images['4']['image']}}}" class="img-fluid" alt="">
+           <img src="{{asset('storage/images/'.$images['4']['image']) }}"style="width:200%;height:100%;background-size:auto" class="img-fluid" alt="">
+                  
                   <div class="portfolio-info">
                     <h4>Design 1</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -120,7 +124,8 @@
              
               <div class="col-lg-4 col-md-6 portfolio-item filter-construction" style="position: absolute; left: 0px; top: 2055px;">
                 <div class="portfolio-content h-100">
-                  <img src="/storage/images/{{{$images['5']['image']}}}" class="img-fluid" alt="">
+           <img src="{{asset('storage/images/'.$images['5']['image']) }}"style="width:200%;height:100%;background-size:auto" class="img-fluid" alt="">
+                 
                   <div class="portfolio-info">
                     <h4>Construction 2</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -139,7 +144,8 @@
   
               <div class="col-lg-4 col-md-6 portfolio-item filter-repairs" style="position: absolute; left: 0px; top: 2466px;">
                 <div class="portfolio-content h-100">
-                  <img src="/storage/images/{{{$images['6']['image']}}}"class="img-fluid" alt="">
+           <img src="{{asset('storage/images/'.$images['6']['image']) }}"style="width:200%;height:100%;background-size:auto" class="img-fluid" alt="">
+                  
                   <div class="portfolio-info">
                     <h4>Repairs 2</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -158,7 +164,8 @@
   
               <div class="col-lg-4 col-md-6 portfolio-item filter-design" style="position: absolute; left: 0px; top: 2877px;">
                 <div class="portfolio-content h-100">
-                  <img src="/storage/images/{{{$images['7']['image']}}}" class="img-fluid" alt="">
+           <img src="{{asset('storage/images/'.$images['7']['image']) }}"style="width:200%;height:100%;background-size:auto" class="img-fluid" alt="">
+                  
                   <div class="portfolio-info">
                     <h4>Design 2</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -177,7 +184,8 @@
   
               <div class="col-lg-4 col-md-6 portfolio-item filter-design" style="position: absolute; left: 0px; top: 2877px;">
                 <div class="portfolio-content h-100">
-                  <img src="/storage/images/{{{$images['8']['image']}}}" class="img-fluid" alt="">
+           <img src="{{asset('storage/images/'.$images['8']['image']) }}"style="width:200%;height:100%;background-size:auto" class="img-fluid" alt="">
+                  
                   <div class="portfolio-info">
                     <h4>Design 2</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -196,7 +204,8 @@
   
               <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling" style="position: absolute; left: 0px; top: 3288px;">
                 <div class="portfolio-content h-100">
-                  <img src="/storage/images/{{{$images['9']['image']}}}" class="img-fluid" alt="">
+           <img src="{{asset('storage/images/'.$images['9']['image']) }}"style="width:200%;height:100%;background-size:auto" class="img-fluid" alt="">
+                  
                   <div class="portfolio-info">
                     <h4>Remodeling 3</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -215,7 +224,8 @@
   
               <div class="col-lg-4 col-md-6 portfolio-item filter-construction" style="position: absolute; left: 0px; top: 3699px;">
                 <div class="portfolio-content h-100">
-                  <img src="/storage/images/{{{$images['10']['image']}}}" class="img-fluid" alt="">
+           <img src="{{asset('storage/images/'.$images['10']['image']) }}"style="width:200%;height:100%;background-size:auto" class="img-fluid" alt="">
+                  
                   <div class="portfolio-info">
                     <h4>Construction 3</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -234,7 +244,8 @@
   
               <div class="col-lg-4 col-md-6 portfolio-item filter-repairs" style="position: absolute; left: 0px; top: 4110px;">
                 <div class="portfolio-content h-100">
-                  <img src="/storage/images/{{{$images['11']['image']}}}" class="img-fluid" alt="">
+           <img src="{{asset('storage/images/'.$images['11']['image']) }}"style="width:200%;height:100%;background-size:auto" class="img-fluid" alt="">
+                  
                   <div class="portfolio-info">
                     <h4>Repairs 3</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur</p>

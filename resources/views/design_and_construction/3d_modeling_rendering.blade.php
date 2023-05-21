@@ -12,7 +12,7 @@
 
         <div class="col-lg-6 aos-init" data-aos="fade-up" data-aos-delay="100">
           <div class="card-item">
-            <div class="row">
+          <div class="row">
               <div class="col-xl-5">
                 <div class="card-bg">
                <img src="/storage/images/{{{$images['6']['image']}}}" style="width:200%;height:100%;background-size:auto" class="img-fluid" alt="">

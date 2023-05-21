@@ -28,7 +28,7 @@
                 </div>
               </div>
             </div>
-          </div>
+         </div>
         </div><!-- End Card Item -->
 
         <div class="col-lg-6 aos-init" data-aos="fade-up" data-aos-delay="200">

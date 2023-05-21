@@ -21,7 +21,9 @@ use App\Http\Middleware\PreventBackHistory;
 |
 */
 Auth::routes();
-       
+Route::get('/', function () {
+  return view('test');
+});
     Route::prefix('makiba/design_and_construction')->name('admin.')->group(function(){
      
       Route::group(['middleware' =>[ 'preventBackHistory']],function () {
@@ -60,8 +62,7 @@ Auth::routes();
         Route::get('/design_and_construction', [AdminController::class, 'construction'])->name('design_and_construction');
      
         Route::get('/contact', [AdminController::class, 'contact'])->name('contact'); 
-        Route::get('/setting/change', [AdminController::class, 'setting'])->name('setting');
-        Route::post('/setting/change', [AdminController::class, 'change'])->name('change');
+       
   });
     });
   

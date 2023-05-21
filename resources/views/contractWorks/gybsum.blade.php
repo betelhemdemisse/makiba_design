@@ -2,10 +2,9 @@
 @section('content') 
 <section id="constructions" class="constructions">
     <div class="container aos-init" data-aos="fade-up">
-
       <div class="section-header">
-        <h2>Constructions</h2>
-        <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
+        <h2>Gybsum work</h2>
+     <p>Transform your vision into reality with Makiba Design and Construction</p>
       </div>
 
       <div class="row gy-4">

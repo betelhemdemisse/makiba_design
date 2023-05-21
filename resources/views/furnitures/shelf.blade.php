@@ -35,7 +35,7 @@
               <div class="col-xl-5">
                 <div class="card-bg">
                <img src="/storage/images/{{{$images['27']['image']}}}" style="width:200%;height:100%;background-size:auto" class="img-fluid" alt="">
-               
+             
                 </div>
               </div>
               <div class="col-xl-7 d-flex align-items-center">

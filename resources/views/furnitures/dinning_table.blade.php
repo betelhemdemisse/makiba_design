@@ -84,7 +84,7 @@
               </div>
             </div>
           </div>
-        </div><!-- End Card Item -->
+        </div><!-- End card Item -->
 
       </div>
 

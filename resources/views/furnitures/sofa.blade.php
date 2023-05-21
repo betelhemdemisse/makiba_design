@@ -16,15 +16,20 @@
               <div class="col-xl-5">
                 <div class="card-bg">
                   <img src="/storage/images/{{{$images['30']['image']}}}" style="width:200%;height:100%;background-size:auto" class="img-fluid" alt="">
-                  @can('admin')
-                  <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
-                               @endcan
                 </div>
               </div>
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">sofa work 1</h4>
                   <p>this is for example</p>
+                  @auth('admin')
+                  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">                 
+                                   @csrf
+                                 <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
+                                 <input id="image_id" value="{{{$images['30']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
+                                  name="image_id" value="{{ old('image_id') }}"hidden autofocus>
+                                <button type="submit" class="btn btn-primary"> change</button>
+                                 </form>@endauth
                 </div>
               </div>
             </div>
@@ -43,7 +48,14 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">sofa work 2</h4>
-                  <p>this is for example</p>  </div>
+                   <p>this is for example</p>  </div>@auth('admin')
+                   <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">                 
+                                    @csrf
+                                  <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
+                                  <input id="image_id" value="{{{$images['31']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
+                                   name="image_id" value="{{ old('image_id') }}"hidden autofocus>
+                                 <button type="submit" class="btn btn-primary"> change</button>
+                                  </form>@endauth
               </div>
             </div>
           </div>
@@ -61,8 +73,14 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">sofa work 3</h4>
-                  
-                  <p>this is for example</p> </div>
+                  <p>this is for example</p>  </div>@auth('admin')
+                  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">                 
+                                   @csrf
+                                 <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
+                                 <input id="image_id" value="{{{$images['32']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
+                                  name="image_id" value="{{ old('image_id') }}"hidden autofocus>
+                                <button type="submit" class="btn btn-primary"> change</button>
+                                 </form>@endauth
               </div>
             </div>
           </div>
@@ -80,7 +98,14 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">sofa work 4</h4>
-                  <p>this is for example</p> </div>
+                  <p>this is for example</p>  </div>@auth('admin')
+                  <form action="{{route('admin.change_contract_image')}}"method="POST"enctype="multipart/form-data">                 
+                                   @csrf
+                                 <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
+                                 <input id="image_id" value="{{{$images['33']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
+                                  name="image_id" value="{{ old('image_id') }}"hidden autofocus>
+                                <button type="submit" class="btn btn-primary"> change</button>
+                                 </form>@endauth
               </div>
             </div>
           </div>

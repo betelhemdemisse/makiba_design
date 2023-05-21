@@ -40,5 +40,17 @@ class portfolioseeder extends Seeder
         ]); DB::table('portfolio_images')->insert([
             'image'=>'hero-carousel-5.jpg',
         ]);
+    DB::table('portfolio_images')->insert([
+        'image'=>'hero-carousel-5.jpg',
+    ]); DB::table('portfolio_images')->insert([
+        'image'=>'hero-carousel-5.jpg',
+    ]); DB::table('portfolio_images')->insert([
+        'image'=>'hero-carousel-5.jpg',
+    ]); DB::table('portfolio_images')->insert([
+        'image'=>'hero-carousel-5.jpg',
+    ]);
+ DB::table('portfolio_images')->insert([
+    'image'=>'hero-carousel-5.jpg',
+]);
     }
 }

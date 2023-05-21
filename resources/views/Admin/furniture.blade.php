@@ -37,17 +37,18 @@
             {{-- <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p> --}}
           </div>
           
-        </div><!-- End Icon Box --><form action="{{route('admin.change_furnitures_image')}}"method="POST"enctype="multipart/form-data">
+        </div><!-- End Icon Box -->
+        @auth('admin')  <form action="{{route('admin.change_furnitures_image')}}"method="POST"enctype="multipart/form-data">
           @csrf
         <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
         <input id="image_id" value="{{{$images['0']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
          name="image_id" value="{{ old('image_id') }}"hidden autofocus>
        <button type="submit" class="btn btn-primary"> change</button>
-        </form>
+        </form>@endauth
       </div>
 
       <div class="col-lg-6 img-bg aos-init aos-animate"data-aos="zoom-in" data-aos-delay="100">
-        <img src="/storage/images/{{{$images['0']['image']}}}" style="width:200%;height:100%;background-size:auto" class="img-fluid" alt="">
+            <img src="{{asset('storage/images/'.$images['0']['image']) }}"style="width:200%;height:100%;background-size:auto" class="img-fluid" alt="">
 
       </div>
      
@@ -60,7 +61,7 @@
 
     <div class="row justify-content-around gy-4">
       <div class="col-lg-6 img-bg aos-init aos-animate"data-aos="zoom-in" data-aos-delay="100">
-        <img src="/storage/images/{{{$images['1']['image']}}}" style="width:200%;height:100%;background-size:auto" class="img-fluid" alt="">
+        <img src="{{asset('storage/images/'.$images['1']['image']) }}"style="width:200%;height:100%;background-size:auto" class="img-fluid" alt="">
         
       </div>
 
@@ -97,13 +98,14 @@
             {{-- <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p> --}}
           </div>
         </div><!-- End Icon Box -->
-        <form action="{{route('admin.change_furnitures_image')}}"method="POST"enctype="multipart/form-data">
+@auth('admin')        <form action="{{route('admin.change_furnitures_image')}}"method="POST"enctype="multipart/form-data">
+
           @csrf
         <input id="image1" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autocomplete="avatar">
         <input id="image_id" value="{{{$images['1']['id']}}}" type="hidden" class="form-control @error('image_id') is-invalid @enderror"
          name="image_id" value="{{ old('image_id') }}"hidden autofocus>
        <button type="submit" class="btn btn-primary"> change</button>
-        </form>
+        </form>@endauth
       </div>
     </div>
 

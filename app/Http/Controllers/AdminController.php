@@ -24,11 +24,16 @@ class AdminController extends Controller
       
    public function home(){
    if(Auth::guard('admin')->check()){
-   
-     return redirect()->route("admin.portfolio");
+    $images= home_images::get()->toArray();
+       // dd($images);
+    return view("Admin.home",compact('images')) ;
+
            }
       else{
-          return redirect()->route("admin.portfolio");
+        $images= home_images::get()->toArray();
+       // dd($images);
+        return view("Admin.home",compact('images')) ;
+
      }
 }
 public function setting()
@@ -37,27 +42,6 @@ public function setting()
     return view("Admin.change_new_password");
   }
 }
-public function change(Request $request)
-{
- //dd($request);
-    $request->validate([
-        'password'=>'required|min:4|max:30',
-       'newpassword'=>'required|min:4|max:30',
-        'confirmpassword'=>'same:newpassword',
-   ],[
-       'password.required'=>"Please insert Password",
-      'newpassword.required'=>"Please insert Password",
-       'confirmpassword.required'=>"Please insert Password",
-   ]);
-$auth=auth()->user()->password;
-dd($auth);
-   if(!Hash::check($request->password, auth()->user()->password)){
-    return redirect()->route("admin.setting"); 
-}
-Admin::whereId(auth()->user()->id)->update([
-  'password' => Hash::make($request->newpassword)
-]);
-    }
  
  
 public function logout()
@@ -179,6 +163,10 @@ public function login(Request $request)
    public function Order_Custom_Makiba_Furnitures()
    {
     $images= furniture_works_images::get()->toArray();
+    //$images=$image->pluck('image')->all();
+    //dd($test);
+   // $images=$imagess['0'];
+    //dd($images);
     return view("Admin.order_custom",compact('images')) ;
    }
    public function Furnitures()
@@ -199,7 +187,7 @@ public function login(Request $request)
     public function portfolio()
     {
      $images= portfolio_images::get()->toArray(); 
-     //dd($images);
+    // dd($images);
         return view("Admin.portfolio",compact('images')) ;
 
     }
@@ -251,14 +239,17 @@ public function login(Request $request)
     }
     public function change_furnitures_image(Request $request)
     {
-        //dd($request);
+      //dd($request);
         if($request->hasFile('image'))
          {
-             $image ='furnitures'.'.'.time().$request->image->extension();
-             $path=$request->file('image')->storeAs('public\images',$image);                
+         // dd($request);
+             $image ='furnitures'.'.'.time().'.'.$request->image->extension();
+             $path=$request->file('image')->storeAs('public/images',$image);                
         }
+     // dd($image);
+
         $id=$request->image_id;
-       //dd($image);
+     //  dd($id);
        furniture_works_images::where('id','=',$id)->update([
          'image'=>$image
           ]);

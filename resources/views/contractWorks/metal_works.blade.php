@@ -24,7 +24,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title">metal work 1</h4>
-                  <p>We specialize in unique metal works for residential, commercial and industrial projects. Our team of highly skilled craftsmen use their extensive knowledge to bring clients' visions to life.</p>
+                <p>We specialize in unique metal works for residential, commercial and industrial projects. Our team of highly skilled craftsmen use their extensive knowledge to bring clients' visions to life.</p>
                 </div>
               </div>
             </div>

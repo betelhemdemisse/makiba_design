@@ -25,7 +25,7 @@
                 <div class="card-body">
                   <h4 class="card-title">sanitary work 1</h4>
                   <p>At Makiba design and construction, we provide a full range of design and construction services, including sanitary works. We have a team of experienced professionals who are dedicated to providing a high quality of work and customer service. Our projects range from small scale renovations and repairs to larger scale new constructions.</p>
-                </div>
+              </div>
               </div>
             </div>
           </div>
